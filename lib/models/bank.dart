@@ -1,0 +1,3 @@
+enum Bank {
+  SHIN_HAN, DAEGU, NH, KAKAO, BNK, SU_HYUP
+}
