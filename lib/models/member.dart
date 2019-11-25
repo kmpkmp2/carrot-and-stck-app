@@ -8,6 +8,8 @@ class Member {
   String password;
   List<BankAccount> bankAccounts;
   List<GoalGroup> goalGroups;
+
+  String profileImageUrl;
 }
 
 
