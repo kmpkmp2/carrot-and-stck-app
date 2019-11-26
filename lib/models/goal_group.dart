@@ -19,5 +19,5 @@ class GoalGroup {
 
   List<Member> members;
 
-  List<Betting> Bettings;
+  List<Betting> bettings;
 }
