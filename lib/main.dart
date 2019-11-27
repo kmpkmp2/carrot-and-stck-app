@@ -1,3 +1,4 @@
+import 'package:carrot_and_stick/pages/goal_group_page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -49,6 +50,12 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.display1,
+            ),
+            RaisedButton(
+                child:Text('목표 그룹 생성', style: TextStyle(fontSize: 30)),
+                onPressed: ()  {
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => GoalGroupActivity()));
+                }
             ),
           ],
         ),
